@@ -23,7 +23,7 @@ This project is an SMS Spam Detection System built using a custom neural network
 - `test.csv` → Test dataset
 - `output.csv` → Model predictions
 - `spamREC.py` → Model training & evaluation code
-- `README.pdf` (in Persian) → Full project report (Persian)
+- `README(Farsi).pdf` (in Persian) → Full project report (Persian)
 
 ### 🚀 Tools & Technologies:
 - Python
