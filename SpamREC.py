@@ -11,7 +11,7 @@ from tensorflow.keras.layers import TextVectorization
 from sklearn.model_selection import train_test_split
 
 # Reading the data
-df = pd.read_csv("D:/Machine L projects/Masoud sms spam reC/train.csv",encoding='latin-1')
+df = pd.read_csv("D:/Machine L projects/Masoud/train.csv",encoding='latin-1')
 
 df = df.drop(['Unnamed: 2','Unnamed: 3','Unnamed: 4'],axis=1)
 df = df.rename(columns={'v1':'label','v2':'Text'})
@@ -113,11 +113,11 @@ def user_example():
     if np.round(p)==1:
          print('spam')
     else:
-         print ('ham')
+         print ('Not Spam')
 
 def dataset_result():
     df_2 = pd.read_csv(input("Adress file ra vared konid :"),encoding='latin-1')
-    #D:/Machine L projects/test.csv
+    #ex: D:/Machine L projects/test.csv
     df_2 = df_2.drop(['Unnamed: 2','Unnamed: 3','Unnamed: 4'],axis=1)
     df_2 = df_2.rename(columns={'v2':'Text'})
     U = np.asanyarray(df_2['Text'])
