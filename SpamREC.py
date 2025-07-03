@@ -92,17 +92,6 @@ def fit_model(model, epochs, X_train=X_train, y_train=y_train,):
 						)
 	return history
 
-def evaluate_model(model, X, y):
-	'''
-	evaluate the model and returns accuracy, 
-	precision, recall and f1-score 
-	'''
-	y_preds = np.round(model.predict(X))
-	accuracy = accuracy_score(y, y_preds)
-
-	model_results_dict = {'accuracy': accuracy}
-
-	return model_results_dict
 
 def user_example():
     z=(input("test kon :"))
