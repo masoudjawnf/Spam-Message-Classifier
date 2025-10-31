@@ -32,3 +32,7 @@ This project is an SMS Spam Detection System built using a custom neural network
 - Sklearn
 - CSV Handling
 
+### 🤝 Contributors
+- [MasoudJanfashan](https://github.com/MasoudJanfashan)
+- [SanazAllahyari](https://github.com/Sanaz-all)
+
