@@ -33,6 +33,6 @@ This project is an SMS Spam Detection System built using a custom neural network
 - CSV Handling
 
 ### 🤝 Contributors
-- [MasoudJanfashan](https://github.com/MasoudJanfashan)
+- [MasoudJanfashan](https://github.com/masoudjawnf)
 - [SanazAllahyari](https://github.com/Sanaz-all)
 
